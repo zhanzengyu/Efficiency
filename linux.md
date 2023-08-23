@@ -35,3 +35,12 @@ bundle exec jekyll serve -w
 history -c
 ```
 如果提示你重启 terminal 才能生效，就重新打开一个 terminal 即可
+### 7 压缩文件并设置密码
+（1）压缩文件夹
+```shell
+zip -er archivename.zip /path/to/dir/
+```
+（2）压缩文件
+```shell
+zip -e archivename.zip file.txt
+```
