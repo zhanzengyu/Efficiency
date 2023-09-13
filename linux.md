@@ -44,3 +44,7 @@ zip -er archivename.zip /path/to/dir/
 ```shell
 zip -e archivename.zip file.txt
 ```
+（3）解压 rar 文件
+```shell
+unrar x fileName.rar
+```
